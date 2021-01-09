@@ -24,7 +24,6 @@ public class ClientModule {
 	public static void printEmployeeReport(Employee employee, FormatType formatType){
 		EmployeeReportFormatter formatter = new EmployeeReportFormatter(employee, formatType);
 		System.out.println(formatter.getFormattedEmployee());
-		
 	}
 
 }
