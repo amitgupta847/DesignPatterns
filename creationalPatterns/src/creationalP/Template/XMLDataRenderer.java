@@ -9,5 +9,4 @@ public class XMLDataRenderer extends DataRenderer {
 	public String processData(String data) {
 		return "processed: " + data;
 	}
-
 }
